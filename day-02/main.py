@@ -77,3 +77,24 @@ bmiCalculator = round(weightNum / (heightFloat * heightFloat))
 # Alternative Solution
 bmiCalculator = round(weightNum / heightFloat ** 2)
 print(bmiCalculator)
+
+# float division
+print(8 // 3) # 2
+
+
+# shorthand
+# +=
+# -=
+# ++
+
+# F-string
+name = "Ismail"
+age = 25
+height = 1.75
+isMarried = "Single"
+isStudent = False
+
+
+# f STRING syntax = f"Your score is {}"
+
+print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Student Roll is: {isStudent}")
