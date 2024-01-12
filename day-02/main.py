@@ -19,7 +19,7 @@ False
 number_char = len(input("What is your name?\n"))
 print("Your name has " + number_char + " characters") # output => TypeError: can only concatenate str (not "int") to str
 
-print(type(number_char)) # <class 'int'>
+print(type(number_char)) # output <class 'int'>
 
 # type conversion
 newNumChar = str(number_char) # num to char/string
