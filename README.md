@@ -1,6 +1,7 @@
-# Topics
+<h1 style="text-align: center;">Topics</h1>
 
-## Day 01
+<details>
+  <summary style="font-size: 2rem;">Day 01</summary>
 
 * Print Statement
 * String Manipulation
@@ -8,4 +9,6 @@
 * Variables
 * Input Function
 
-🚀 Project: Band Name Generator
+### 🚀 Project: Band Name Generator
+
+</details>
