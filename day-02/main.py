@@ -108,3 +108,12 @@ calcWeeks = (90 - int(age) ) * 52
 print(f"You have {calcWeeks} weeks left.")
 
 
+# Final Project Tip Calculator
+bill = float(input("What was the total Bill? => "))
+tipPercentage = float(input("What percentage tip would you like to give? 10, 12, 15 => "))
+totalPeople = float(input("How Much People to split the bill? => "))
+
+CalcBillWithTip = bill + (bill * tipPercentage / 100)
+perPersonBill = CalcBillWithTip / totalPeople
+
+print(f"Each person should pay: ${round(perPersonBill, 2)}")
