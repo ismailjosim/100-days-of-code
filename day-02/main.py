@@ -77,3 +77,43 @@ bmiCalculator = round(weightNum / (heightFloat * heightFloat))
 # Alternative Solution
 bmiCalculator = round(weightNum / heightFloat ** 2)
 print(bmiCalculator)
+
+# float division
+print(8 // 3) # 2
+
+
+# shorthand
+# +=
+# -=
+# ++
+
+# F-string
+name = "Ismail"
+age = 25
+height = 1.75
+isMarried = "Single"
+isStudent = False
+
+
+# # f STRING syntax = f"Your score is {}"
+
+# print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Student Roll is: {isStudent}")
+age = input()
+
+# My solution
+calcWeeks = 90 * 52 - int(age) * 52
+
+# alternative solution
+calcWeeks = (90 - int(age) ) * 52
+print(f"You have {calcWeeks} weeks left.")
+
+
+# Final Project Tip Calculator
+bill = float(input("What was the total Bill? => "))
+tipPercentage = float(input("What percentage tip would you like to give? 10, 12, 15 => "))
+totalPeople = float(input("How Much People to split the bill? => "))
+
+CalcBillWithTip = bill + (bill * tipPercentage / 100)
+perPersonBill = CalcBillWithTip / totalPeople
+
+print(f"Each person should pay: ${round(perPersonBill, 2)}")
