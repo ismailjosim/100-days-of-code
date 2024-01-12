@@ -100,5 +100,11 @@ isStudent = False
 # print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Student Roll is: {isStudent}")
 age = input()
 
+# My solution
 calcWeeks = 90 * 52 - int(age) * 52
+
+# alternative solution
+calcWeeks = (90 - int(age) ) * 52
 print(f"You have {calcWeeks} weeks left.")
+
+
