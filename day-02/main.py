@@ -28,3 +28,5 @@ print("Your name has " + newNumChar + " characters") # Output => Your name has 6
 
 # similar
 float(70 + float("100.5")) # => output: 170.5 convert string to number then add them
+
+# Coding Challenge: DATA TYPES
