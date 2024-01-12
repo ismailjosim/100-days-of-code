@@ -95,6 +95,10 @@ isMarried = "Single"
 isStudent = False
 
 
-# f STRING syntax = f"Your score is {}"
+# # f STRING syntax = f"Your score is {}"
 
-print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Student Roll is: {isStudent}")
+# print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Student Roll is: {isStudent}")
+age = input()
+
+calcWeeks = 90 * 52 - int(age) * 52
+print(f"You have {calcWeeks} weeks left.")
