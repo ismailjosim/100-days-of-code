@@ -89,17 +89,35 @@
 # else:
 #     print(f"Your BMI is {calcBMI}, You are clinically obese.")
 
-year = int(input("Enter Year "))
+# year = int(input("Enter Year "))
 
-# My solution
-if year % 4 == 0:
-    if year % 100 == 0:
-        if year % 400 == 0:
-            print("Leap year")
-        else:
-            print("Not leap year")
+# # My solution
+# if year % 4 == 0:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#             print("Leap year")
+#         else:
+#             print("Not leap year")
+#     else:
+#         print("Leap year")
+# else:
+#     print("Not leap year")
+
+# MULTIPLE IF STATEMENTS
+height = int(input("Enter Your Heigh in CM: "))
+bill = 0
+
+if(height >120):
+    age = int(input("Enter Your age: "))
+    if age < 12:
+        bill = 5
+    elif age <= 18:
+        bill = 7
     else:
-        print("Leap year")
+        bill = 12
+    take_photo = input("Do you want to take photo? Y or N ")
+    if(take_photo == "Y"):
+        bill += 3
+    print(f"Your Final bill is {bill}")
 else:
-    print("Not leap year")
-
+    print("can't ride")
