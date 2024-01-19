@@ -1,126 +1,158 @@
-# # Conditional Statement (if-else statement)\
+# Conditional (if-else statement)
 
-# """ PYTHON IF-ELSE SYNTAX
-# if condition:
-#     do this
-# else:
-#     do this
-# """
+""" PYTHON IF-ELSE SYNTAX
+if condition:
+    do this
+else:
+    do this
+"""
 
-# height = int(input("Enter Your Heigh in CM: "))
+height = int(input("Enter Your Heigh in CM: "))
 
-# if height > 120:
-#     print("Here is your ticket!")
-# else:
-#     print("Sorry! your height is not enough to get the ticket!")
+if height > 120:
+    print("Here is your ticket!")
+else:
+    print("Sorry! your height is not enough to get the ticket!")
 
-# """ Comparison Operators
-#     1. > greater then
-#     2. < less then
-#     3. >= greater then or equal to
-#     4. <= less then or equal to
-#     5. == equal to
-#     6. != not equal to
-# """
+""" Comparison Operators
+    1. > greater then
+    2. < less then
+    3. >= greater then or equal to
+    4. <= less then or equal to
+    5. == equal to
+    6. != not equal to
+"""
 
-# # Coding Challenge: 01
-# number = int(input())
+# Coding Challenge: 01
 
-# if number % 2 == 0:
-#     print("This is an even number.")
-# else:
-#     print("This is an odd number.")
+number = int(input())
 
-# # Nested if-else statement
-# """ PYTHON IF-ELSE SYNTAX
-# if condition:
-#     if another condition:
-#         do this
-#     else:
-#         do this
-# else:
-#     do this
-# """
+if number % 2 == 0:
+    print("This is an even number.")
+else:
+    print("This is an odd number.")
 
-# height = int(input("Enter Your Heigh in CM: "))
+# Nested if-else statement
+""" PYTHON IF-ELSE SYNTAX
+if condition:
+    if another condition:
+        do this
+    else:
+        do this
+else:
+    do this
+"""
 
-
-# if(height >120):
-#     print("You can Ride the rollercoaster ride")
-#     age = int(input("Enter Your age: "))
-#     if age < 12:
-#         print("Can pay $5 ticket")
-#     elif age <= 18:
-#         print("Can pay $7 ticket")
-#     else:
-#         print("Can pay $12 ticket")
-# else:
-#     print("can't ride")
+height = int(input("Enter Your Heigh in CM: "))
 
 
-# # Coding Challenge #3: BMI calculation 2.0
-# height = float(input())
-# weight = int(input())
+if(height >120):
+    print("You can Ride the rollercoaster ride")
+    age = int(input("Enter Your age: "))
+    if age < 12:
+        print("Can pay $5 ticket")
+    elif age <= 18:
+        print("Can pay $7 ticket")
+    else:
+        print("Can pay $12 ticket")
+else:
+    print("can't ride")
 
-# calcBMI = weight / height ** 2
 
-# # my solution
-# if calcBMI > 18.5:
-#     if (calcBMI > 18.5 and calcBMI < 25): # if calcBMI over 18 and below 25
-#         print(f"Your BMI is {calcBMI}, you have a normal weight.")
-#     elif(calcBMI >= 25 and calcBMI < 30): # if calcBMI Equal or over 25 and below 30
-#         print(f"Your BMI is {calcBMI}, you are slightly overweight.")
-#     elif(calcBMI >= 30 and calcBMI < 35): # if calcBMI Equal or over 30 and below 35
-#         print(f"Your BMI is {calcBMI}, you are obese.")
-#     else:
-#         print(f"Your BMI is {calcBMI}, You are clinically obese.")
-# else:
-#     print(f"Your BMI is {calcBMI}, You are underweight.")
+# Coding Challenge #2: BMI calculation 2.0
 
-# # alternative solution
-# if calcBMI < 18.5:
-#      print(f"Your BMI is {calcBMI}, You are underweight.")
-# elif calcBMI < 25:
-#     print(f"Your BMI is {calcBMI}, you have a normal weight.")
-# elif calcBMI < 30:
-#     print(f"Your BMI is {calcBMI}, you are slightly overweight.")
-# elif calcBMI < 35:
-#     print(f"Your BMI is {calcBMI}, you are obese.")
-# else:
-#     print(f"Your BMI is {calcBMI}, You are clinically obese.")
+height = float(input())
+weight = int(input())
 
-# year = int(input("Enter Year "))
+calcBMI = weight / height ** 2
 
-# # My solution
-# if year % 4 == 0:
-#     if year % 100 == 0:
-#         if year % 400 == 0:
-#             print("Leap year")
-#         else:
-#             print("Not leap year")
-#     else:
-#         print("Leap year")
-# else:
-#     print("Not leap year")
+# my solution
+if calcBMI > 18.5:
+    if (calcBMI > 18.5 and calcBMI < 25): # if calcBMI over 18 and below 25
+        print(f"Your BMI is {calcBMI}, you have a normal weight.")
+    elif(calcBMI >= 25 and calcBMI < 30): # if calcBMI Equal or over 25 and below 30
+        print(f"Your BMI is {calcBMI}, you are slightly overweight.")
+    elif(calcBMI >= 30 and calcBMI < 35): # if calcBMI Equal or over 30 and below 35
+        print(f"Your BMI is {calcBMI}, you are obese.")
+    else:
+        print(f"Your BMI is {calcBMI}, You are clinically obese.")
+else:
+    print(f"Your BMI is {calcBMI}, You are underweight.")
 
-# # MULTIPLE IF STATEMENTS
-# height = int(input("Enter Your Heigh in CM: "))
-# bill = 0
+# alternative solution
+if calcBMI < 18.5:
+     print(f"Your BMI is {calcBMI}, You are underweight.")
+elif calcBMI < 25:
+    print(f"Your BMI is {calcBMI}, you have a normal weight.")
+elif calcBMI < 30:
+    print(f"Your BMI is {calcBMI}, you are slightly overweight.")
+elif calcBMI < 35:
+    print(f"Your BMI is {calcBMI}, you are obese.")
+else:
+    print(f"Your BMI is {calcBMI}, You are clinically obese.")
 
-# if(height >120):
-#     age = int(input("Enter Your age: "))
-#     if age < 12:
-#         bill = 5
-#     elif age <= 18:
-#         bill = 7
-#     else:
-#         bill = 12
-#     take_photo = input("Do you want to take photo? Y or N ")
-#     if(take_photo == "Y"):
-#         bill += 3
-#     print(f"Your Final bill is {bill}")
-# else:
-#     print("can't ride")
+
+
+# Coding Challenge #3: Leap Year
+
+year = int(input("Enter Year "))
+
+# My solution
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("Leap year")
+        else:
+            print("Not leap year")
+    else:
+        print("Leap year")
+else:
+    print("Not leap year")
+
+# MULTIPLE IF STATEMENTS
+height = int(input("Enter Your Heigh in CM: "))
+bill = 0
+
+if(height >120):
+    age = int(input("Enter Your age: "))
+    if age < 12:
+        bill = 5
+    elif age <= 18:
+        bill = 7
+    else:
+        bill = 12
+    take_photo = input("Do you want to take photo? Y or N ")
+    if(take_photo == "Y"):
+        bill += 3
+    print(f"Your Final bill is {bill}")
+else:
+    print("can't ride")
+
+
+# Coding Challenge #4: Pizza Order
+
+print("Thank you for choosing Python Pizza Deliveries!")
+size = input() # What size pizza do you want? S, M, or L
+add_pepperoni = input() # Do you want pepperoni? Y or N
+extra_cheese = input() # Do you want extra cheese? Y or N
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+totalPrice = 0
+if size == "S":
+    totalPrice = 15
+if size == "M":
+    totalPrice = 20
+if size == "L":
+    totalPrice = 25
+if add_pepperoni == "Y":
+    if size == "S":
+        totalPrice += 2
+    elif size == "M" or size == "L":
+        totalPrice += 3
+if extra_cheese == "Y":
+    totalPrice += 1
+print(f"Your final bill is: ${totalPrice}.")
+
 
 # CODING CHALLENGE #5: lOVE CALCULATOR
 
@@ -210,3 +242,5 @@ elif score >= 40 and score <= 50:
      print(f"Your score is {score}, you are alright together.")
 else:
     print(f"Your score is {score}.")
+
+# 🚀 Project: Treasure Island
