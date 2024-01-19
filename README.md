@@ -1,7 +1,7 @@
 <h1 style="text-align: center;">Topics</h1>
 
 <details>
-  <summary style="font-size: 2rem;">Day 01</summary>
+  <summary style="font-size: 1.5rem">Day 01:  Working with Variables in Python to Manage Data</summary>
 
 * Print Statement
 * String Manipulation
@@ -13,7 +13,7 @@
 
 </details>
 <details>
-  <summary style="font-size: 2rem;">Day 02</summary>
+  <summary style="font-size: 1.5rem">Day 02: Understanding Data Types and How to Manipulate Strings</summary>
 
 * Basic Data Types: String, number(int, float), Boolean
 * check data types: type
@@ -40,8 +40,9 @@ print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Stude
 ### 🚀 Project: Tip Calculator
 
 </details>
+
 <details>
-  <summary style="font-size: 2rem;">Day 03</summary>
+  <summary style="font-size: 1.5rem">Day 03: Control Flow and Logical Operators</summary>
 
 * Conditional (if-else statement)
 * Comparison Operators
@@ -53,5 +54,21 @@ print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Stude
 * CODING CHALLENGE #5: lOVE CALCULATOR
 
 ### 🚀 Project: Treasure Island
+
+</details>
+
+<details>
+  <summary style="font-size: 1.5rem">Day 04: Randomization and Python Lists</summary>
+
+* Conditional (if-else statement)
+* Comparison Operators
+* Coding Challenge #1: odd or even number
+* Nested if-else statement
+* Coding Challenge #2: BMI calculation 2.0
+* Coding Challenge #3: Leap Year
+* Coding Challenge #4: Pizza Order
+* CODING CHALLENGE #5: lOVE CALCULATOR
+
+### 🚀 Project: Rock Paper Scissors
 
 </details>
