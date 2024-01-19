@@ -37,6 +37,21 @@ print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Stude
 * F-string (write multiple data type together)
 * Coding Challenge-03:(calcWeeks remaining calculate age in weeks)
 
-### 🚀 Project: <a href="">Tip Calculator</a>
+### 🚀 Project: <a>Tip Calculator</a>
+
+</details>
+<details>
+  <summary style="font-size: 2rem;">Day 03</summary>
+
+* Conditional (if-else statement)
+* Comparison Operators
+* Coding Challenge #1: odd or even number
+* Nested if-else statement
+* Coding Challenge #2: BMI calculation 2.0
+* Coding Challenge #3: Leap Year
+* Coding Challenge #4: Pizza Order
+* CODING CHALLENGE #5: lOVE CALCULATOR
+
+### 🚀 Project: Treasure Island
 
 </details>
