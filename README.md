@@ -37,7 +37,7 @@ print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Stude
 * F-string (write multiple data type together)
 * Coding Challenge-03:(calcWeeks remaining calculate age in weeks)
 
-### 🚀 Project: <a>Tip Calculator</a>
+### 🚀 Project: Tip Calculator
 
 </details>
 <details>
