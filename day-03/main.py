@@ -180,5 +180,3 @@ elif loveSore > 40 and loveSore < 50:
      print(f"Your score is {loveSore}, you are alright together.")
 else:
     print(f"Your score is {loveSore}.")
-
-
