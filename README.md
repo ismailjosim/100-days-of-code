@@ -60,9 +60,9 @@ print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Stude
 <details>
   <summary style="font-size: 1.5rem">Day 04: Randomization and Python Lists</summary>
 
-* Conditional (if-else statement)
-* Comparison Operators
-* Coding Challenge #1: odd or even number
+* Random module & module access
+* Random module (randint)
+* Coding Exercise #1: HEADS OR TAILS
 * Nested if-else statement
 * Coding Challenge #2: BMI calculation 2.0
 * Coding Challenge #3: Leap Year
