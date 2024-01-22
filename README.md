@@ -63,7 +63,7 @@ print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Stude
 * Random module & module access
 * Random module (randint)
 * Coding Exercise #1: HEADS OR TAILS
-* Nested if-else statement
+* List in python
 * Coding Challenge #2: BMI calculation 2.0
 * Coding Challenge #3: Leap Year
 * Coding Challenge #4: Pizza Order
