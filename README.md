@@ -69,6 +69,6 @@ print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Stude
 * Coding Challenge #3: TREASURE MAP
 * CODING CHALLENGE #5: lOVE CALCULATOR
 
-### 🚀 Project: Rock Paper Scissors
+### 🚀 Project: Rock Paper Scissors Game
 
 </details>
