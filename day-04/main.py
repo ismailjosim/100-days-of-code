@@ -38,7 +38,7 @@
 
 
 
-# # Coding Exercise #1: Banker Roulette
+# # Coding Exercise #2: Banker Roulette
 # import random
 # names_string = input()
 
@@ -54,5 +54,25 @@
 # print(city[9]) # IndexError: list index out of range
 
 # Nested List
-city = [["Dhaka","Chittagong","Khulna","Rajshahi"],["Barisal","Sylhet","Rangpur","Mymensingh"]]
-print(city)
+# city = [["Dhaka","Chittagong","Khulna","Rajshahi"],["Barisal","Sylhet","Rangpur","Mymensingh"]]
+# print(city)
+
+# # Coding Exercise #3: Banker Roulette
+line1 = ["⬜️","️⬜️","️⬜️"]
+line2 = ["⬜️","⬜️","️⬜️"]
+line3 = ["⬜️️","⬜️️","⬜️️"]
+map = [line1, line2, line3]
+print("Hiding your treasure! X marks the spot.")
+position = input() # Where do you want to put the treasure?
+# 🚨 Don't change the code above 👆
+# Write your code below this row 👇
+letter = position[0].lower()
+abc = ['a','b','c']
+letterIndex = abc.index(letter)
+numberIndex = int(position[1]) - 1
+map[numberIndex][letterIndex] = "x"
+
+
+# Write your code above this row 👆
+# 🚨 Don't change the code below 👇
+print(f"{line1}\n{line2}\n{line3}")

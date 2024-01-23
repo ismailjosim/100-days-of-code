@@ -64,9 +64,9 @@ print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Stude
 * Random module (randint)
 * Coding Exercise #1: HEADS OR TAILS
 * List in python and it's method (append)
-* Coding Challenge #2: BMI calculation 2.0
-* Coding Challenge #3: Leap Year
-* Coding Challenge #4: Pizza Order
+* Coding Exercise #2: Banker Roulette
+* Nested List
+* Coding Challenge #3: TREASURE MAP
 * CODING CHALLENGE #5: lOVE CALCULATOR
 
 ### 🚀 Project: Rock Paper Scissors
