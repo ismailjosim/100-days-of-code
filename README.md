@@ -1,4 +1,4 @@
-<h1 style="text-align: center; display: flex; justify-content: center; align-items: center;"><span>Topics</span> <img width="40" src="./python.gif" />
+<h1 style="text-align: center; display: flex; justify-content: center; align-items: center;"><span>Topics</span> <img width="40" style="margin-top: 5px" src="./python.gif" />
 </h1>
 
 <details>
