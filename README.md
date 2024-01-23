@@ -1,4 +1,5 @@
-<h1 style="text-align: center;">Topics</h1>
+<h1 style="text-align: center; display: flex; justify-content: center; align-items: center;"><span>Topics</span> <img width="40" src="./python.gif" />
+</h1>
 
 <details>
   <summary style="font-size: 1.5rem">Day 01:  Working with Variables in Python to Manage Data</summary>
