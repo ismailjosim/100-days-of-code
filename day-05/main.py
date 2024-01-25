@@ -60,3 +60,15 @@ print(total)
 # alternative solution
 for number in range(2, target + 1, 2):
   total += number
+
+# 💪 Interactive Coding Exercise 04: The FizzBuzz Game
+
+for number in range(1, 101):
+  if number % 15 == 0:
+    print("FizzBuzz")
+  elif number % 3 == 0:
+    print("Fizz")
+  elif number % 5 == 0:
+    print("Buzz")
+  else:
+    print(number)
