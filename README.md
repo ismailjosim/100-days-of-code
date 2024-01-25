@@ -63,13 +63,26 @@ print(f"Person Name is {name}. Age {age} Years old. Currently {isMarried}. Stude
 
 * Random module & module access
 * Random module (randint)
-* Coding Exercise #1: HEADS OR TAILS
+* Coding Challenge #1: HEADS OR TAILS
 * List in python and it's method (append)
-* Coding Exercise #2: Banker Roulette
+* Coding Challenge #2: Banker Roulette
 * Nested List
 * Coding Challenge #3: TREASURE MAP
-* CODING CHALLENGE #5: lOVE CALCULATOR
+* CODING Challenge #4: lOVE CALCULATOR
 
 ### 🚀 Project: Rock Paper Scissors Game
+
+</details>
+<details>
+  <summary style="font-size: 1.5rem">Day 05: Python Loops ♾️</summary>
+
+* Simple For-in loop
+* Coding Challenge #1: AVERAGE HEIGHT
+* Coding Challenge #2: Find the height value
+* For Loop and the range() function
+* Coding Challenge #3: Adding Even Numbers
+* Coding Challenge #4: The FizzBuzz Job Interview Question
+
+### 🚀 Project: Create a Password Generator
 
 </details>
