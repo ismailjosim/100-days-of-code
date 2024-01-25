@@ -3,7 +3,7 @@ phoneBrand = ["apple", "SamSang","Nokia","Xiaomi"]
 for brand in phoneBrand:
     print(brand)
 
-# COding Challenge 01 :  AVERAGE HEIGHT
+# 💪 COding Challenge 01 :  AVERAGE HEIGHT
 # Input a Python list of student heights
 student_heights = input().split()
 for n in range(0, len(student_heights)):
@@ -20,3 +20,17 @@ avg = round(height / len(student_heights))
 print(f"total height = {height}")
 print(f"number of students = {len(student_heights)}")
 print(f"average height = {avg}")
+
+# 💪 COding Challenge 01 :  AVERAGE HEIGHT
+# Input a list of student scores
+student_scores = input().split()
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
+
+# Write your code below this row 👇
+heightValue = 0
+for value in student_scores:
+  if value > heightValue:
+    heightValue = value
+
+print(f"The highest score in the class is: {heightValue}")
