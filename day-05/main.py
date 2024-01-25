@@ -1,9 +1,9 @@
-# phoneBrand = ["apple", "SamSang","Nokia","Xiaomi"]
+phoneBrand = ["apple", "SamSang","Nokia","Xiaomi"]
 
-# for brand in phoneBrand:
-#     print(brand)
+for brand in phoneBrand:
+    print(brand)
 
-# COding Challenge: 01
+# COding Challenge 01 :  AVERAGE HEIGHT
 # Input a Python list of student heights
 student_heights = input().split()
 for n in range(0, len(student_heights)):
@@ -14,7 +14,9 @@ for n in range(0, len(student_heights)):
 height = 0
 for student in student_heights:
   height += student
-  avg = height / len(student_heights)
-  print(f"total height = {height}")
-  print(f"number of students = {len(student_heights)}")
-  print(f"average height = {avg}")
+
+avg = round(height / len(student_heights))
+
+print(f"total height = {height}")
+print(f"number of students = {len(student_heights)}")
+print(f"average height = {avg}")
