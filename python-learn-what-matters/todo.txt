@@ -1,0 +1,36 @@
+How Python works?
+The only language that computer can process or execute is called machine language. It consists of only 0s and 1s in binary, that ca computer can understand.
+
+so we can't write code in binary because it's too difficult to write code in binary. for example: if we want to print "Hello my name is" for this we have to write this binary code: 011000110.
+
+that's why we can't write code in binary format. to solve this problem many genius people introduce many programming languages such as: c, c++, Python etc. so in those language we can write and understand code. so we write code then it converted into bytes code then bytes code convert into binary code. to convert the we use compiler/interpreter.
+
+How compiler/interpreter works?
+
+let's say we have a file called main.py and inside that file we write some code. after the when we run the code it read all the code then convert the code in binary format.
+
+difference between compiler and interpreter?
+
+The main difference between compiler and a interpreter lies in how they process code. a compiler translates the entire source code into machine code or an intermediate code before execution, producing a standalone executable file.
+
+on the other hand, an interpreter process the code line by line, execute it directly without creating a separate executable.
+
+example of compiler and interpreter languages:
+
+1. compiler languages:
+- C
+- C++
+- Java
+- Swift
+- Rust
+
+2. interpreter languages:
+- Python
+- Ruby
+- JavaScript
+- PHP
+- Bash (Shell Scripting)
+
+Note: from the above languages like java use a combination of both compiler and interpreter. Java code initially compile into an intermediate bytecode, which is then interpreted by the Java Virtual machine(JVM)
+
+To run interpreted programming code we need to download interpreter in our machine. for example, to write code in Python we need to download CPython or simply Python.
