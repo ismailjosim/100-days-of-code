@@ -20,18 +20,20 @@ display = []
 for l in range(len(chosen_word)):
     display+="_"
 
-# TODO 3: Ask the user to guess a letter and assign their answer to a variable called guess. make guess lowercase
-guess = input("Guess a letter: ").lower()
+end_game = False
+
+while not end_game:
+    guess = input("Guess a letter: ").lower()
+    for pos in range(len(chosen_word)):
+        letter = chosen_word[pos]
+        if letter == guess:
+            display[pos] = letter
+    print(display)
+    if "_" not in display:
+        end_game = True
+        print("You Win.")
 
 
 
-# TODO 4: check if the letter user guessed (guess) is one of the letters in the chosen_word.
-for pos in range(len(chosen_word)):
-    letter = chosen_word[pos]
-    if letter == guess:
-        display[pos] = letter
 
 
-
-
-print(display)
